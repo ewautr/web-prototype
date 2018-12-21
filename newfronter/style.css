@@ -1,0 +1,229 @@
+/*GENERAL*/
+body {
+    font: 15px/1.5 Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* NAVV */
+nav {
+    display: none;
+}
+
+#menu:checked ~ nav {
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
+label {
+    font-size: 35px;
+    
+}
+.nav {
+    float: right;
+}
+.logo {
+    float: left;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+
+/* HEADER */
+header {
+    background: #4c374b;
+    color: #fff;
+    padding-top: 8px;
+    min-height: 35px;
+    border-bottom:  #ea5045 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header img {
+    height: 35px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .logo {
+    float: left;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+
+/* INTRO */
+.intro h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 15px
+}
+
+.introdiv {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.firstpar {
+    margin: 5px;
+}
+
+.secondpar {
+    margin: 5px;
+    margin-bottom: 40px;
+    padding-bottom: 15px
+}
+
+.intro {
+    background-image: url(img/guldbersgade-28.jpg);
+    margin-bottom: 30px;
+    
+}
+
+/* BOXES BITCH */
+.color {
+    border: #4c374b 5px solid;
+    border-radius: 20px;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+h3 {
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.color p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px
+    
+}
+
+.color img {
+    width: 70px;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #4c374b;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #fff;
+    margin: 7px;
+}
+
+
+
+
+
+/*WORK SPACES*/
+.workspacebox {
+    border-radius: 20px;
+    background-color: #EBEBEB;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.workbuttons {
+    border: #6d6e71 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+.boximg {
+    width: 10%;
+    float:left;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+
+.bookbetter {
+    height: 90px;
+    padding: 20px;
+    padding-right: 20px;
+}
+
+.workspace p {
+    color: #6d6e71;
+}
+
+
+/*NEW WORKSPACE*/
+
+.imgback {
+    margin-left: 60px
+}
+
+/* CHAT */
+
+.search {
+    margin: auto;
+
+}
+
+.imgsearch {
+    width: 10px;
+    margin-left: 50px;
+}
+
+.people {
+    border-radius: 50%;
+    width: 30px;
+    margin-left: 20px
+}
+
+.textpeople {
+    float: right;
+}
+
+.chatting {
+    width: 100%;
+    border-radius: 10px;
+}
